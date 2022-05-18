@@ -11,6 +11,7 @@ body{
    align-items: center;
    text-align: center;
    justify-content: center;
+   margin: 0px;
 }
 
 .title{
@@ -24,55 +25,16 @@ body{
     border-bottom: 2px solid black;
 }
 
-#demo{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 2.5rem;  
-    margin-right: 15vw;
-    margin-left: 15vw;
-    font-weight: bolder;
-    color:blue;
-    background-color: rgba(211, 211, 211, 0.5);
-    border: 4px solid black;
-    border-radius: 10%;
-    margin-left: 30vw;
-    margin-right: 30vw;
-}
 
-#demoPhone{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 1.2rem;  
-    font-weight: bolder;
-    color:#e60000;
-    background-color: rgba(211, 211, 211, 0.5);
-    border: 4px solid black;
-    border-radius: 40%;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    display: none;
-    padding: 10px;
-    padding-left: 40px;
-}
 
 .Love {
     width: 18%;
     height: 18%;
-    margin-top: 30px;
     border: 4px solid black;
     border-radius: 5%;
+    margin-top: -150px;
 }
 
-.LovePhone{
-    width: 63%;
-    height: 63%;
-    margin-top: 30px;
-    border: 4px solid black;
-    border-radius: 5%;
-    display: none;
-    justify-content: center;
-    margin-left: 20vw;
-}
 
 .pics{
     justify-content: center;
@@ -93,23 +55,15 @@ body{
         border-bottom: 2px solid black;
     }
    
-    #demo{
-        margin-left: 10vw;
-        margin-right: 10vw;
-        font-size: 1.3rem;
-    }
-    
+
     body{
         background-size:auto;
         background-image: url("./images/pozadina.jpg");
     }
-  
+
     .Love{
         width: 63%;
         height: 63%;
-        margin-top: 30px;
-        border: 4px solid black;
-        border-radius: 5%;
-        justify-content: center;
     }
 }
+  
