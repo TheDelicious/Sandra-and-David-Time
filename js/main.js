@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // var FirstJulyContdown = (new Date().getTime() / 1000) + (86400 * 43) + 1;
   // 3741306
   // 3738960
-  var FirstJulyContdown = (new Date().getTime() / 1000) + (3738960) + 1;
+    var countDownDate = (new Date("July 1, 2022 00:00:00").getTime() - new Date().getTime())/1000;
+    var FirstJulyContdown = (new Date().getTime() / 1000) + (countDownDate) + 1;
+  
 
 
   // Set up FlipDown
@@ -24,5 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
     body.classList.toggle('light-theme');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
     body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
+    body.querySelector('#title').classList.toggle('title_black');
+    body.querySelector('#title').classList.toggle('title_white');
+    body.querySelector('#Love').classList.toggle('Love_black');
+    body.querySelector('#Love').classList.toggle('Love_white');
+
   }, 50000);
 });

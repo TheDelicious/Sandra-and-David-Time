@@ -14,7 +14,7 @@ body{
    margin: 0px;
 }
 
-.title{
+.title_black{
     text-align: center;
     margin-top: 50px;
     font-size: 2.5rem;  
@@ -25,12 +25,31 @@ body{
     border-bottom: 2px solid black;
 }
 
+.title_white {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    margin-right: 25vw;
+    margin-left: 25vw;
+    font-weight: bolder;
+    color: white;
+    border-bottom: 2px solid white;
+}
 
 
-.Love {
+
+.Love_black {
     width: 18%;
     height: 18%;
     border: 4px solid black;
+    border-radius: 5%;
+    margin-top: -150px;
+}
+
+.Love_white {
+    width: 18%;
+    height: 18%;
+    border: 4px solid white;
     border-radius: 5%;
     margin-top: -150px;
 }
@@ -44,15 +63,12 @@ body{
 }
 
 @media (max-width: 500px){
-    .title{
-        text-align: center;
-        margin-top: 50px;
+    .title_black{
         font-size: 1.5rem;
-        margin-right: 25vw;
-        margin-left: 25vw;
-        font-weight: bolder;
-        color:black;
-        border-bottom: 2px solid black;
+    }
+
+    .title_white {
+       font-size: 1.5rem;
     }
    
 
@@ -61,7 +77,12 @@ body{
         background-image: url("./images/pozadina.jpg");
     }
 
-    .Love{
+    .Love_white{
+        width: 63%;
+        height: 63%;
+    }
+
+    .Love_black {
         width: 63%;
         height: 63%;
     }
